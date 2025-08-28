@@ -171,7 +171,7 @@ body {
     .nav-links {
       display: none;
       flex-direction: column;
-      background: #fff;
+      background: #030303;
       position: absolute;
       top: 60px;
       right: 0;
@@ -185,12 +185,12 @@ body {
   }
   
   #countdownList {
-    list-style: none;       /* remove bullets */
-    padding: 0;             /* remove padding */
-    margin: 0;              /* remove margin */
-    display: flex;          /* align horizontally */
-    gap: 10px;              /* space between numbers */
-    font-size: 1.5rem;      /* make it a bit larger */
-    font-weight: bold;      /* bold numbers */
+    list-style: none;       
+    padding: 0;             
+    margin: 0;              
+    display: flex;          
+    gap: 10px;              
+    font-size: 1.5rem;      
+    font-weight: bold;      
   }
   
