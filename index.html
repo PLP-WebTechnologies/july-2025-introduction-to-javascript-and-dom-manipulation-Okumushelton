@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Fundamentals Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Shelton</div>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Layout -->
+  <main class="container">
+    <!-- Content Area -->
+    <section class="content">
+      <h1>Javascript Essentials</h1>
+
+      <!-- Part 1: Variables + Conditionals -->
+      <div class="card" id="ageCheck">
+        <h3>Age Checker</h3>
+        <input type="number" id="ageInput" placeholder="Enter your age">
+        <button onclick="checkAge()">Check Age</button>
+        <p id="ageResult"></p>
+      </div>
+
+      <!-- Part 2: Functions -->
+      <div class="cards">
+        <div class="card">
+          <h3>Price Calculator</h3>
+          <button onclick="showTotal()">Calculate</button>
+          <p id="totalResult"></p>
+        </div>
+        <div class="card">
+          <h3>Greeting Function</h3>
+          <button onclick="showGreeting()">Say Hello</button>
+          <p id="greetingResult"></p>
+        </div>
+      </div>
+
+      <!-- Part 3: Loops -->
+      <div class="card">
+        <h3>Countdown</h3>
+        <button onclick="showCountdown()">Start Countdown</button>
+        <ul id="countdownList"></ul>
+      </div>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Interactive Sidebar</h2>
+      <p>Use the buttons below:</p>
+      <button id="toggleTheme">change theme</button>
+      <button id="addItemBtn">Add List Item</button>
+      <ul id="dynamicList"></ul>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
